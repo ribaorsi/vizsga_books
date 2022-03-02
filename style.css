@@ -83,7 +83,6 @@ body {
 
 .container {
     display: flex;
-
     flex-wrap: wrap;
     position: absolute;
     align-items: center;
@@ -94,22 +93,10 @@ body {
     margin-top: 80px;
 }
 
-.cardcontainer {
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-    position:relative;
-    margin: 50px 10px;
-}
-
 .card {
     display:flex;
     flex-wrap: wrap;
     position: relative;
-
-    border: 1px solid #1a24fb;
 
     width: 340px;
     height: 450px;
