@@ -84,6 +84,7 @@ body {
 .container {
     display: flex;
 
+    flex-wrap: wrap;
     position: absolute;
     align-items: center;
     justify-content: center;     
@@ -103,7 +104,8 @@ body {
 }
 
 .card {
-    
+    display:flex;
+    flex-wrap: wrap;
     position: relative;
 
     border: 1px solid #1a24fb;
@@ -117,4 +119,57 @@ body {
 
 button .container {
 
+}
+
+.number {
+    display: flex;
+    position:absolute;
+    top: 10px;
+    right: 10px;
+
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+
+    width: 40px;
+    height: 40px;
+   
+    background-color: #f8f7f3;
+    color: #1a24fb;
+}
+
+.title {
+    padding-bottom: 10px;
+    min-height: 90px;
+    
+    color:#1a24fb;
+    
+    font-size: 36px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
+.sub {
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #1a24fb;
+
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.text {
+    padding-bottom: 20px;
+    color:#1a24fb;
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Overpass', sans-serif; ;
 }
